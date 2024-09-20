@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(4, 197, 204);
+}
+.container {
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.con {
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Updated box-shadow with proper values */
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.cont h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(5, 18, 209);
+    border-radius: 10px;
+    padding: 15px;
+}
+.cont .well {
+    /* Removed unnecessary justify-items */
+    text-align: center; /* Added text-align for better centering */
+}
+.form-group {
+    padding: 8px;
+}
